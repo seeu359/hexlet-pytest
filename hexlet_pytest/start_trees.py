@@ -1,6 +1,6 @@
 def remove_first_level(tree):
     list1 = []
-    lst2 =[]
+    lst2 = []
     for i in tree:
         if type(i) == list:
             list1.append(i)
@@ -8,7 +8,3 @@ def remove_first_level(tree):
         for item in it:
             lst2.append(item)
     return lst2
-
-
-a = [1, 100, 3]
-print(remove_first_level(a))

@@ -1,5 +1,6 @@
 from hexlet_pytest.start_trees import remove_first_level
 
+
 def test_remove_first_level():
     assert remove_first_level([]) == []
     assert remove_first_level([1, 100, 3]) == []
